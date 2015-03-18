@@ -1,0 +1,24 @@
+<!doctype html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+  </head>
+  <body>
+    <h2>Eventbrite</h2>
+    <label for"city-input">City:</label>
+    <input id="city-input" type="text" placeholder="San Francisco">
+    <label for"state-input">State:</label>
+    <input id="state-input" type="text" placeholder="CA">
+    <button id="search-button">Find Events</button>
+
+    <p id="search-error"></p>
+    <p id="standby-msg">Finding events...</p>
+
+    <div id="events-container">
+      <h3>Popular Events This Week</h3>
+      <div id="weekly-events"></div>
+    </div>
+
+    <script src='js/jquery.min.js'></script>
+    <script src='js/popup.js'></script>
+  </body>
+</html>

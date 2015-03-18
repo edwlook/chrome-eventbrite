@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Eventbrite",
+  "version": "0.0.1",
+  "description": "Discover cool and interesting events nearby.",
+  "permissions": [
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "eventbrite_icon_48.png",
+    "default_popup": "popup.html"
+  }
+}
