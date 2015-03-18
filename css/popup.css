@@ -2,14 +2,6 @@ body {
   width: 400px;
 }
 
-img {
-  margin: 5px;
-  border: 2px solid black;
-  vertical-align: middle;
-  width: 75px;
-  height: 75px;
-}
-
 #city-input {
   margin-right: 5px;
   width: 100px;
